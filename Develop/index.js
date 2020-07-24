@@ -70,5 +70,9 @@ function init(questions) {
 init(questions)
     .then(userAnswers => {
         return generateReadMe(userAnswers);
+    })
+    // This is just a placeholder for the write function writing to the readme
+    .then(sameData => {
+        console.log(sameData);
     });
 

@@ -1,6 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data);
+  // Destructure the object
+  const { github, email, project, description, license, dependencies, tests } = data;
+  // console.log(data);
+  return github;
   //return `# ${data.title}
 
 // `;
