@@ -32,9 +32,18 @@ function generateMarkdown(data) {
 
   To run tests, run the following command:
 
-  
   ${tests}
   
+
+  ## Questions
+
+  Refer to this GitHub repository here:
+
+  https://github.com/${github}/${project}
+
+  You can reach me via email at:
+
+  ${email}
   `;
 }
 
