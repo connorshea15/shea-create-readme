@@ -1,7 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   // Destructure the object
-  const { github, email, project, description, license, dependencies, usage, tests } = data;
+  const { github, email, project, description, license, dependencies, usage, contributing, tests } = data;
   return `
   # ${project}
 
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
 
   ## Contributing
 
-  placeholder here
+  ${contributing}
 
   ## Tests
 
@@ -47,7 +47,7 @@ function generateMarkdown(data) {
 
   https://github.com/${github}/${project}
 
-  You can reach me via email at:
+  You can reach me with any questions via email at:
 
   ${email}
   `;
