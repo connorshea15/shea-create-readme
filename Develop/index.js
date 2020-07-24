@@ -42,6 +42,12 @@ const questions = [
       },
       {
         type: 'input',
+        name: 'usage',
+        message: 'Enter instructions for using this application:',
+        validate: nameInput => validateInput(nameInput)
+      },
+      {
+        type: 'input',
         name: 'tests',
         message: 'What command should be run to run tests?',
         validate: nameInput => validateInput(nameInput)

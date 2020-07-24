@@ -1,20 +1,25 @@
 
-  # Shea-Weather-Dashboard
+  # shea-create-readme
 
   ## Description 
-  It is a project with a dashboard
+  This project takes user input in order to create a professional readme.
 
   ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
 
   ## Installation
   
   To install necessary dependencies, run the following command:
   
-  
-  npm init
-  
+  npm install inquirer
 
   ## Usage
+
+  Instructions go here
 
   ## License
 
@@ -30,14 +35,13 @@
 
   N/A
   
-
   ## Questions
 
   Refer to this GitHub repository here:
 
-  https://github.com/connorshea15/Shea-Weather-Dashboard
+  https://github.com/connorshea15/shea-create-readme
 
   You can reach me via email at:
 
-  sdfsad
+  email@email
   

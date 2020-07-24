@@ -1,34 +1,43 @@
+# Shea-Create-Readme
 
-  # Project Name
+## Description 
 
-  ## Description 
-  This is a project that took about 14 years to complete. 
+A tool for developers who want to create a professional READme file with minimal effort, so they can focus on the actual application. 
 
-  ## Table of Contents
 
-  ## Installation
-  
-  To install necessary dependencies, run the following command:
-  
-  
-  npm install inquirer
-  
+## Built With
+* Javascript
+* Inquirer
 
-  ## Usage
 
-  ## License
+## Mockup
+![](/Develop/images/mockup.JPG)
 
-  This project is licensed under the MIT license.
 
-  ## Contributing
+## Github Repository
+https://github.com/connorshea15/shea-create-readme
 
-  placeholder here
+## Installation
 
-  ## Tests
+In order to run this application, you must run the following command:
 
-  To run tests, run the following command:
+npm install inquirer
 
-  
-  test that shiz
-  
+
+## Usage 
+
+* In the command line, navigate to the Develop directory within the shea-create-readme root directory. 
+
+* Initiate the application by running the command:
+
+node index.js
+
+* Find the markdown text for your professional readme in the 'dist' folder inside the Develop directory.
+
+
+## Credits
+
+Connor Shea
+
+
   
