@@ -10,13 +10,16 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+
   ## Installation
   
   To install necessary dependencies, run the following command:
   
-  
   ${dependencies}
-  
 
   ## Usage
 
@@ -34,7 +37,6 @@ function generateMarkdown(data) {
 
   ${tests}
   
-
   ## Questions
 
   Refer to this GitHub repository here:
