@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
-const generateReadMe = require('./utils/generateMarkdown.js')
+const generateReadMe = require('./utils/generateMarkdown.js');
+const writeReadMe = require('./utils/write-read-me.js')
 
 // array of questions for user
 const questions = [
@@ -73,6 +74,6 @@ init(questions)
     })
     // This is just a placeholder for the write function writing to the readme
     .then(sameData => {
-        console.log(sameData);
+        return writeReadMe(sameData);
     });
 
