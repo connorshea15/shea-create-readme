@@ -37,9 +37,16 @@ const questions = [
         name: 'dependencies',
         message: 'What command should be run to install dependencies?',
         validate: nameInput => validateInput(nameInput)
+      },
+      {
+        type: 'input',
+        name: 'tests',
+        message: 'What command should be run to run tests?',
+        validate: nameInput => validateInput(nameInput)
       }
 ];
 
+// One function for validating all user input in prompt
 const validateInput = userInput => {
     if (userInput) {
         return true;
