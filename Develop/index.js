@@ -6,67 +6,48 @@ const questions = [
         type: 'input',
         name: 'github',
         message: 'What is your Github username?',
-        validate: nameInput => {
-          if (nameInput) {
-            return true;
-          } else {
-            console.log("please enter your name!");
-            return false;
-          }
-        }
+        validate: nameInput => validateInput(nameInput)
       },
       {
         type: 'input',
         name: 'email',
         message: 'What is your email address?',
-        validate: nameInput => {
-          if (nameInput) {
-            return true;
-          } else {
-            console.log("please enter your username!");
-            return false;
-          }
-        }
+        validate: nameInput => validateInput(nameInput)
       },
       {
         type: 'input',
         name: 'project',
         message: 'What is your project name?',
-        validate: nameInput => {
-          if (nameInput) {
-            return true;
-          } else {
-            console.log("please enter your username!");
-            return false;
-          }
-        }
+        validate: nameInput => validateInput(nameInput)
       },
       {
         type: 'input',
         name: 'description',
         message: 'Please enter a short description of your project:',
-        validate: nameInput => {
-          if (nameInput) {
-            return true;
-          } else {
-            console.log("please enter your username!");
-            return false;
-          }
-        }
-      }/*,
-      {
-        type: 'confirm',
-        name: 'confirmAbout',
-        massage: 'Would you like to enter some information about yourself for an "About" section?',
-        default: true
+        validate: nameInput => validateInput(nameInput)
       },
       {
         type: 'input',
-        name: 'about',
-        message: 'Provide some information about yourself:',
-        when: ({ confirmAbout }) => confirmAbout
-      } */
+        name: 'license',
+        message: 'What kind of License should your project have?',
+        validate: nameInput => validateInput(nameInput)
+      },
+      {
+        type: 'input',
+        name: 'dependencies',
+        message: 'What command should be run to install dependencies?',
+        validate: nameInput => validateInput(nameInput)
+      }
 ];
+
+const validateInput = userInput => {
+    if (userInput) {
+        return true;
+      } else {
+        console.log("please enter a value!");
+        return false;
+      }
+};
 
 // function to write README file
 function writeToFile(fileName, data) {
