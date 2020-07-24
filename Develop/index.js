@@ -14,11 +14,11 @@ const questions = [
             return false;
           }
         }
-      }
-      /*{
+      },
+      {
         type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub Username:',
+        name: 'email',
+        message: 'What is your email address?',
         validate: nameInput => {
           if (nameInput) {
             return true;
@@ -28,6 +28,32 @@ const questions = [
           }
         }
       },
+      {
+        type: 'input',
+        name: 'project',
+        message: 'What is your project name?',
+        validate: nameInput => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log("please enter your username!");
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'description',
+        message: 'Please enter a short description of your project:',
+        validate: nameInput => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log("please enter your username!");
+            return false;
+          }
+        }
+      }/*,
       {
         type: 'confirm',
         name: 'confirmAbout',
@@ -52,4 +78,6 @@ function init(questions) {
 }
 
 // function call to initialize program
-init(questions);
+init(questions)
+    .then(userAnswers => console.log(userAnswers));
+
