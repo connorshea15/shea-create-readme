@@ -1,5 +1,7 @@
 const inquirer = require('inquirer');
+// Variable connected to generateMardown function in generateMarkdown.js
 const generateReadMe = require('./utils/generateMarkdown.js');
+// Variable connected to writeReadMe function in write-read-me.js
 const writeReadMe = require('./utils/write-read-me.js')
 
 // array of questions for user
@@ -70,21 +72,20 @@ const validateInput = userInput => {
       }
 };
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
 // function to initialize program
 function init(questions) {
     return inquirer.prompt(questions);
 }
 
-// function call to initialize program
+// function call to initialize program 
 init(questions)
+    // pass object containing user input to generateMardown function 
+    // in generateMardown.js
     .then(userAnswers => {
         return generateReadMe(userAnswers);
     })
-    // This is just a placeholder for the write function writing to the readme
+    // Invoke writeReadMe function from write-read-me.js passing template
+    // literal from generateReadMe in generateMarkdown.js as argument
     .then(sameData => {
         return writeReadMe(sameData);
     });
