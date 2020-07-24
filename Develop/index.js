@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const generateReadMe = require('./utils/generateMarkdown.js')
 
 // array of questions for user
 const questions = [
@@ -67,5 +68,7 @@ function init(questions) {
 
 // function call to initialize program
 init(questions)
-    .then(userAnswers => console.log(userAnswers));
+    .then(userAnswers => {
+        return generateReadMe(userAnswers);
+    });
 
