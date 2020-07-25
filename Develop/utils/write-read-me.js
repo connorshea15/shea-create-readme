@@ -5,9 +5,8 @@ const writeReadMe = fileContent => {
     fs.writeFile('./dist/readMe.md', fileContent, err => {
         if (err) throw err;
 
-        console.log('Portfolio Complete! Check out index.html to see the output!');
+        console.log('README Complete! Check out readMe.md to see the output!');
     });
-    console.log(fileContent);
 };
 
 module.exports = writeReadMe;
