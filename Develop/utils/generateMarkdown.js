@@ -56,6 +56,10 @@ function generateMarkdown(data) {
   To run tests, run the following command:
 
   ${tests}
+
+  ## Live URL
+
+  https://${github}.github.io/${project}/
   
   ## Questions
 
