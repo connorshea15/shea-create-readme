@@ -1,5 +1,6 @@
 // function to print languages
 const generateBuiltWith = selectedLanguages => {
+  // Conditional to exit function if there are no selected languages
   if (selectedLanguages.length === 0) {
     return '';
   } else{
@@ -74,10 +75,3 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
-
-
-/* ## Built With
-
-${languages.map(x => {
-  return "\n * " + x;
-})} */

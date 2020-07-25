@@ -19,6 +19,10 @@ A tool for developers who want to create a professional READme file with minimal
 ## Github Repository
 https://github.com/connorshea15/shea-create-readme
 
+## Link to WalkThrough Video
+
+
+
 ## Installation
 
 In order to run this application, you must run the following command:
