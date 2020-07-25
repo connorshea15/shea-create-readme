@@ -14,7 +14,9 @@ function generateMarkdown(data) {
 
   ## Built With
 
-  ${languages.map(x => x = "* " + x)}
+  ${languages.map(x => {
+    return "\n * " + x;
+  })}
 
   ## Table of Contents
 

@@ -1,14 +1,18 @@
 
   # asdf
 
-  ![](https://img.shields.io/badge/license-asdf-green)
+  ![](https://img.shields.io/badge/license-sdf-green)
 
   ## Description 
   asdf
 
   ## Built With
 
-  * HTML,* jQuery,* Bootstrap
+  
+ * JavaScript,
+ * HTML,
+ * ES6,
+ * jQuery
 
   ## Table of Contents
 
@@ -25,11 +29,11 @@
 
   ## Usage
 
-  asdf
+  asfd
 
   ## License
 
-  This project is licensed under the asdf license.
+  This project is licensed under the sdf license.
 
   ## Contributing
 
@@ -49,5 +53,5 @@
 
   You can reach me with any questions via email at:
 
-  adsf
+  asdf
   
