@@ -4,12 +4,12 @@ const generateBuiltWith = selectedLanguages => {
     return '';
   } else{
     return `
-    ## Built With
+## Built With
 
-    ${selectedLanguages.map(x => {
-      return "\n * " + x;
-    })}
-    `}
+${selectedLanguages.map(x => {
+  return "\n * " + x;
+})}
+`}
 };
 
 // function to generate markdown for README
