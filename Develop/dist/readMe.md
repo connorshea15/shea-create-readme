@@ -4,16 +4,16 @@
   ![](https://img.shields.io/badge/license-MIT-green)
 
   ## Description 
-  This is a description
+  This is the description
 
   
 ## Built With
 
 
  * JavaScript,
- * HTML,
- * ES6,
- * jQuery
+ * CSS,
+ * jQuery,
+ * Bootstrap
 
 
   ## Table of Contents
@@ -27,11 +27,11 @@
   
   To install necessary dependencies, run the following command:
   
-  npm install inquirer
+  nppm install inquirer
 
   ## Usage
 
-  Instruction for use
+  Instructions go here
 
   ## License
 
@@ -39,7 +39,7 @@
 
   ## Contributing
 
-  contribute all day
+  Instructions also go here
 
   ## Tests
 
@@ -59,5 +59,5 @@
 
   You can reach me with any questions via email at:
 
-  asdfas
+  asdfasdf
   
