@@ -94,5 +94,8 @@ init(questions)
     // literal from generateReadMe in generateMarkdown.js as argument
     .then(sameData => {
         return writeReadMe(sameData);
+    })
+    .catch(err => {
+        console.log(err);
     });
 

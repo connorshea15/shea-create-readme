@@ -1,9 +1,21 @@
+// function to print languages
+const generateBuiltWith = selectedLanguages => {
+  if (selectedLanguages.length === 0) {
+    return '';
+  } else{
+    return `
+    ## Built With
+
+    ${selectedLanguages.map(x => {
+      return "\n * " + x;
+    })}
+    `}
+};
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   // Destructure the object
   const { github, email, project, description, languages, license, dependencies, usage, contributing, tests } = data;
-  // const languageList = languages.map(x => x = "* " + x);
-  // console.log(languageList);
   return `
   # ${project}
 
@@ -12,11 +24,7 @@ function generateMarkdown(data) {
   ## Description 
   ${description}
 
-  ## Built With
-
-  ${languages.map(x => {
-    return "\n * " + x;
-  })}
+  ${generateBuiltWith(languages)}
 
   ## Table of Contents
 
@@ -62,3 +70,10 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+
+/* ## Built With
+
+${languages.map(x => {
+  return "\n * " + x;
+})} */
