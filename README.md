@@ -8,6 +8,8 @@ A tool for developers who want to create a professional READme file with minimal
 ## Built With
 * Javascript
 * Inquirer
+* Node.js
+* ES6
 
 
 ## Mockup

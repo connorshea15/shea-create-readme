@@ -1,7 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   // Destructure the object
-  const { github, email, project, description, license, dependencies, usage, contributing, tests } = data;
+  const { github, email, project, description, languages, license, dependencies, usage, contributing, tests } = data;
+  // const languageList = languages.map(x => x = "* " + x);
+  // console.log(languageList);
   return `
   # ${project}
 
@@ -9,6 +11,10 @@ function generateMarkdown(data) {
 
   ## Description 
   ${description}
+
+  ## Built With
+
+  ${languages.map(x => x = "* " + x)}
 
   ## Table of Contents
 
