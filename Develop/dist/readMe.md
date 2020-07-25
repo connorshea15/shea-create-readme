@@ -1,19 +1,19 @@
 
-  # asdf
+  # Destination-Designator
 
-  ![](https://img.shields.io/badge/license-asdf-green)
+  ![](https://img.shields.io/badge/license-MIT-green)
 
   ## Description 
-  asdf
+  This is a description
 
   
 ## Built With
 
 
+ * JavaScript,
  * HTML,
- * CSS,
- * jQuery,
- * Bootstrap
+ * ES6,
+ * jQuery
 
 
   ## Table of Contents
@@ -27,37 +27,37 @@
   
   To install necessary dependencies, run the following command:
   
-  asdf
+  npm install inquirer
 
   ## Usage
 
-  asdf
+  Instruction for use
 
   ## License
 
-  This project is licensed under the asdf license.
+  This project is licensed under the MIT license.
 
   ## Contributing
 
-  sadf
+  contribute all day
 
   ## Tests
 
   To run tests, run the following command:
 
-  asdf
+  N/A
 
   ## Live URL
 
-  https://cdas.github.io/asdf/
+  https://connorshea15.github.io/Destination-Designator/
   
   ## Questions
 
   Refer to this GitHub repository here:
 
-  https://github.com/cdas/asdf
+  https://github.com/connorshea15/Destination-Designator
 
   You can reach me with any questions via email at:
 
-  asdf
+  asdfas
   
