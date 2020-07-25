@@ -4,7 +4,7 @@
   ![](https://img.shields.io/badge/license-MIT-green)
 
   ## Description 
-  This is a description of my project
+  This is the description of the project
 
   
 ## Built With
@@ -12,7 +12,9 @@
 
  * JavaScript,
  * HTML,
- * CSS
+ * ES6,
+ * jQuery,
+ * Bootstrap
 
 
   ## Table of Contents
@@ -44,7 +46,7 @@
 
   To run tests, run the following command:
 
-  N/A
+  npm tests
 
   ## Live URL
 
@@ -58,5 +60,5 @@
 
   You can reach me with any questions via email at:
 
-  asdf
+  asdfas
   
